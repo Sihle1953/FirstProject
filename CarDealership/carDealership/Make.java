@@ -1,11 +1,13 @@
+package carDealership;
 
-public class Make extends Car {;
+public class Make {
 	
-	String Make = "BMW, German car";
+    String Make = "BMW, German car";
 	
 	public static void main(String[] args) {
 		Make obj = new Make();
 		System.out.println(obj.Make);
 		
 	}
+
 }
